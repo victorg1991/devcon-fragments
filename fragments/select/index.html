@@ -1,0 +1,21 @@
+<div class="fragment_1">
+	<label class="d-block [#if !input.showLabel || !input.label?has_content]sr-only[/#if]"  for="${fragmentEntryLinkNamespace}-select-multiple">
+		${htmlUtil.escape(input.label)}
+
+		[#if input.required][@clay["icon"] className="reference-mark" symbol="asterisk" /][/#if]
+	</label>
+
+	[#assign options=(input.attributes.options)![]]
+
+	<select name="${input.name}" id="${fragmentEntryLinkNamespace}-select-multiple" [#if input.showHelpText && input.helpText?has_content]aria-describedby="${fragmentEntryLinkNamespace}-help-text"[/#if]>
+		[#list options as option]
+			<option value="${option.value}" [#if input.value?? && option.value == input.value]selected[/#if]>${htmlUtil.escape(option.label)}</option>
+		[/#list]
+	</select>
+
+	[#if input.showHelpText && input.helpText?has_content]
+		<p class="mb-0 mt-1 text-secondary" id="${fragmentEntryLinkNamespace}-help-text">
+			${input.helpText}
+		</p>
+	[/#if]
+</div>
