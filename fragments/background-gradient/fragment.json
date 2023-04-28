@@ -1,0 +1,9 @@
+{
+  "cssPath": "styles.css",
+  "configurationPath": "configuration.json",
+  "htmlPath": "index.html",
+  "jsPath": "main.js",
+  "icon": "background-color",
+  "name": "Background gradient",
+  "type": "component"
+}
