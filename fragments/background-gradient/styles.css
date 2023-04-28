@@ -1,3 +1,3 @@
 .background-gradient {
-  background: linear-gradient(var(--direction), var(--start) 0%, var(--end) 100%);
+  background: linear-gradient(var(--direction, 90deg), var(--start, #000) 0%, var(--end, #fff) 100%);
 }
