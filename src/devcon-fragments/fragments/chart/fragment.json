@@ -1,0 +1,10 @@
+{
+  "cssPath": "styles.css",
+  "configurationPath": "configuration.json",
+  "htmlPath": "index.html",
+  "jsPath": "main.js",
+  "icon": "analytics",
+  "name": "Chart",
+  "type": "react"
+}
+
