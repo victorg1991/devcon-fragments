@@ -8,7 +8,6 @@
           "label": "Direction",
           "type": "text",
           "defaultValue": "90deg",
-          "placeholder": "90deg",
           "description": "You can use any valid CSS <angle>."
         },
         {
