@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "yo liferay-fragments:import --watch",
     "build": "yo liferay-fragments:compress --addDeploymentDescriptor=''"
   },
   "repository": {
