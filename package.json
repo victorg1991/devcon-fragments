@@ -1,0 +1,16 @@
+{
+  "name": "devcon-fragments",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "yo liferay-fragments:compress --addDeploymentDescriptor=''"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorg1991/devcon-fragments.git"
+  },
+  "devDependencies": {
+    "generator-liferay-fragments": "^2.1.0",
+    "yo": "^2.0.6"
+  }
+}
