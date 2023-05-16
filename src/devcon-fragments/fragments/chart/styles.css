@@ -1,0 +1,19 @@
+.ct-area {
+  opacity: 0.25;
+}
+
+.ct-series-a .ct-area {
+ fill:#d70206
+}
+
+.ct-series-b .ct-area {
+ fill:#f05b4f
+}
+
+.ct-series-c .ct-area {
+ fill:#f4c63d
+}
+
+.ct-series-d .ct-area {
+ fill:#d17905
+}
