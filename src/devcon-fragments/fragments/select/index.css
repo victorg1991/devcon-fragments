@@ -1,2 +1,8 @@
-.fragment_4 {
+.fragment_1 select {
+	font-family: inherit;
+	min-width: 30ch;
+	font-size: 1em;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+	border: 1px #27283345 solid;
 }
