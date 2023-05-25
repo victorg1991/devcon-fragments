@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "generator-liferay-fragments": "^2.1.1",
+    "generator-liferay-fragments": "2.1.0",
     "yo": "^2.0.6"
   }
 }
